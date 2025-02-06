@@ -1,20 +1,20 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Light, elegant font */
     margin: 0;
     padding: 0;
-    background-color: #fef5f8; /* Soft pink background */
-    color: #333;
+    background-color: #fffaf3; /* Crème background */
+    color: #555;
     text-align: center;
 }
 
 /* Header */
 header {
-    background-color: #ff85a2; /* Elegant pink */
+    background-color: #f8c8dc; /* Pastel pink */
     padding: 20px;
-    color: white;
+    color: #fff;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 nav ul {
@@ -30,22 +30,24 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 /* Hero Section */
 .hero {
     padding: 50px 20px;
+    background-color: #fff5f8; /* Soft crème-pink */
 }
 
 .hero h2 {
     font-size: 36px;
-    color: #ff4081;
+    color: #d291bc; /* Soft pastel purple */
+    font-weight: 300;
 }
 
 .hero .btn {
     display: inline-block;
-    background-color: #ff4081;
+    background-color: #f4c2c2; /* Light pink */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -56,6 +58,7 @@ nav ul li a {
 /* Featured Products */
 .featured {
     padding: 40px 20px;
+    background-color: #fffaf3;
 }
 
 .product-grid {
@@ -69,7 +72,7 @@ nav ul li a {
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     max-width: 200px;
 }
 
@@ -79,7 +82,7 @@ nav ul li a {
 }
 
 .btn {
-    background-color: #ff4081;
+    background-color: #f4c2c2;
     color: white;
     padding: 8px 15px;
     border-radius: 20px;
@@ -90,8 +93,9 @@ nav ul li a {
 
 /* Footer */
 footer {
-    background-color: #ff85a2;
+    background-color: #f8c8dc;
     padding: 10px;
     color: white;
     margin-top: 20px;
 }
+
